@@ -3,8 +3,8 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="zero1_patches_command_patch_list" xsi:type="object">Zero1\Patches\Command\PatchList</item>
-                <item name="zero1_patches_command_patch_add" xsi:type="object">Zero1\Patches\Command\PatchAdd</item>
+                <item name="tecsecret_patches_command_patch_list" xsi:type="object">TecSecret\Patches\Command\PatchList</item>
+                <item name="tecsecret_patches_command_patch_add" xsi:type="object">TecSecret\Patches\Command\PatchAdd</item>
             </argument>
         </arguments>
     </type>

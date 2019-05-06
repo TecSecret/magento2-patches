@@ -1,10 +1,10 @@
 {
     "name": "zero1limited/magento2-patches",
-    "description": "Patches for core Magento2",
+    "description": "Patches for core Magento2. Desenvolvimento inicial realziado por zero1limited/magento2-patches",
     "authors": [
         {
-            "name": "Arron Moss",
-            "email": "arron.moss@zero1.co.uk"
+            "name": "Nelsir Luterek",
+            "email": "webmaster@tecsecret.com.br"
         }
     ],
     "keywords": [

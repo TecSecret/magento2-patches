@@ -1,5 +1,5 @@
 <?php
-namespace Zero1\Patches\Command;
+namespace TecSecret\Patches\Command;
 
 use Magento\Framework\Component\ComponentRegistrar;
 use Magento\Framework\Component\ComponentRegistrarInterface;

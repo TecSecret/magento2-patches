@@ -1,5 +1,5 @@
 <?php
-namespace Zero1\Patches\Command;
+namespace TecSecret\Patches\Command;
 
 use Magento\Framework\Component\ComponentRegistrar;
 use Magento\Framework\Component\ComponentRegistrarInterface;
@@ -43,7 +43,7 @@ abstract class AbstractPatch extends Command
 
     protected function getModuleDir()
     {
-        return $this->componentRegistrar->getPath(ComponentRegistrar::MODULE, 'Zero1_Patches');
+        return $this->componentRegistrar->getPath(ComponentRegistrar::MODULE, 'TecSecret_Patches');
     }
 
     protected function getPatchConfig()

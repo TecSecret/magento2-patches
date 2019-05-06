@@ -1,5 +1,5 @@
 <?php
-namespace Zero1\Patches\Command;
+namespace TecSecret\Patches\Command;
 
 use Magento\Framework\Component\ComponentRegistrar;
 use Magento\Framework\Component\ComponentRegistrarInterface;
@@ -13,7 +13,7 @@ use Magento\Framework\App\ProductMetadata;
 
 class PatchAdd extends AbstractPatch
 {
-    const BASE_URL = 'https://raw.githubusercontent.com/zero1limited/magento2-patches/master';
+    const BASE_URL = 'https://raw.githubusercontent.com/TecSecret/magento2-patches/master';
     
     protected function configure()
     {
@@ -42,7 +42,7 @@ class PatchAdd extends AbstractPatch
         $patchName = $input->getOption('patch');
         $message = $input->getOption('message');
         if(!$message){
-            $message = $patchName.' - Added via Zero1_Patches';
+            $message = $patchName.' - Added via TecSecret_Patches';
         }
 
         $output->writeln('Patch: '.$patchName);
